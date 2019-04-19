@@ -11,7 +11,7 @@ let ordinal = function(digit) {
   else if (lastDigit === 1) {
     return digit + "st";
   }
-  else if (lastDigit === 1) {
+  else if (lastDigit === 2) {
     return digit + "nd";
   }
   else if (lastDigit === 3) {
